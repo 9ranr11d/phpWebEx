@@ -1,0 +1,43 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "돋움";   font-size: 14px; }
+img { border: 0;}
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+/* 헤더 */
+#top { position: relative; width: 1000px; height: 70px; top: 20px; margin: 0 auto; }
+#top h4 { font-size: 16px; }
+#top li { display: inline; }
+#top #page_name {float: left; width: 300px; }
+#top #main_menu { position: relative; float: left; width: 400px; top: 10px;}
+#top #main_menu ul { text-align: center; }
+#top #main_menu ul li { margin-left: 10px; margin-right: 10px; }
+#top #login_menu {float: left; width: 300px; }
+#top #login_menu ul { text-align: right; }
+#top #login_menu #login_ul img { position: relative; width: 20px; height: 20px; top: 5px;}
+#logo { position: relative; width: 1000px; height: 200px; top: 20px; margin: 0 auto; font-size: 16px; text-align: center;}
+/* 메인 화면 */
+#main_area { position: relative; width: 1000px; height: 600px; margin: 0 auto; text-align: center;}
+#main_area img { width: 200px; height: 600px;}
+#main_area #main_back { float: left; width: 200px; height: 600px; background-color: red;}
+#main_area #main_chest { float: left; width: 200px; height: 600px;}
+#main_area #main_shoulder { float: left; width: 200px; height: 600px;}
+#main_area #main_abdomen { float: left; width: 200px; height: 600px;}
+#main_area #main_lowerbody { float: left; width: 200px; height: 600px;}
+/* 하단 푸터 */
+footer { height: 70px; background-color: #001f20; }
+#footer_content { position: relative; width: 1000px; margin: 0 auto; color: #dddddd; }
+#footer_main { position: absolute; top: 30px; left: 50px; font-size: 16px; }
+#footer_main span { color: yellow; }
+#support { position: absolute; top: 20px; left: 400px; }
+#support a:link { color: rgb(0, 204, 17); }
+#support a:hover { color: rgb(0, 204, 17); }
+#support a:visited { color: rgb(0, 204, 17); }
+#support a:active { color: rgb(0, 204, 17); }
+#author { position: absolute; top: 20px; left: 700px; }
